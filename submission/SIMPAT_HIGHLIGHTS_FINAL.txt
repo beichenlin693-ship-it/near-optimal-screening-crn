@@ -1,0 +1,4 @@
+Near-optimal preservation, screening and final recommendation can diverge.
+Fixed-sample screening can exceed adaptive screening with independent evidence.
+Paired evidence improves screening in the tested strongly correlated settings.
+A dynamic basketball revenue simulator extends comparison beyond Gaussian systems.

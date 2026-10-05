@@ -1,0 +1,15 @@
+Character counts include all spaces and final punctuation; no bullet marker is counted.
+
+1. 74 characters
+Near-optimal preservation, screening and final recommendation can diverge.
+
+2. 79 characters
+Fixed-sample screening can exceed adaptive screening with independent evidence.
+
+3. 78 characters
+Paired evidence improves screening in the tested strongly correlated settings.
+
+4. 82 characters
+A dynamic basketball revenue simulator extends comparison beyond Gaussian systems.
+
+PASS: 4 highlights; every item <= 85 characters.

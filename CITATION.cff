@@ -4,6 +4,7 @@ title: 'Near-Optimal Screening under Fixed Simulation Budgets: Preservation, Eff
   and the Role of Common Random Numbers'
 type: software
 version: 1.0.0-submission
+doi: 10.5281/zenodo.23168599
 authors: &id001
 - family-names: Lin
   given-names: Beichen
@@ -12,7 +13,7 @@ authors: &id001
   orcid: https://orcid.org/0009-0003-2486-0718
 - family-names: Zhang
   given-names: Maodong
-  affiliation: Software Engineering, Xinjiang University, Urumqi, Xinjiang, China
+  affiliation: Xinjiang University, Urumqi, Xinjiang, China
   email: 2132257382@qq.com
 repository-code: https://github.com/beichenlin693-ship-it/near-optimal-screening-crn
 license: MIT

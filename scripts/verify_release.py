@@ -43,11 +43,11 @@ def main():
         if re.search(r'[A-Z]:[\\/]+Users[\\/]+[A-Za-z0-9_.-]+|/(?:Users|home)/[A-Za-z0-9_.-]+/|-----BEGIN (?:RSA |OPENSSH )?PRIVATE KEY-----|gh[pousr]_[A-Za-z0-9]{30,}|sk-[A-Za-z0-9]{30,}',t):leaks.append(p.relative_to(ROOT).as_posix())
     check('No local user paths or credential patterns',not leaks,leaks)
     readme=(ROOT/'README.md').read_text(encoding='utf-8')
-    check('Publication-facing README',not re.search(r'\bV[12](?:\.1)?\b|\bM[0-7](?:[–-]M?[0-7])?\b|reconstruction|handoff|audit phase',readme,re.I))
+    check('Publication-facing README',not re.search(r'\bV[12](?:\.1)?\b|\bM[0-7](?:[–-]M?[0-7])?\b|reconstruction|handoff|audit phase',readme.replace('v1.0.0-submission',''),re.I))
     sections=['Overview','Repository structure','Main methods','Experimental settings','WNBA simulation benchmark','Reproducing tables','Reproducing figures','External comparator analysis','Data provenance','Computational environment','Reproducibility notes','Citation','License','Contact']
     check('README required sections',all('## '+s in readme for s in sections))
     cff=yaml.safe_load((ROOT/'CITATION.cff').read_text(encoding='utf-8'))
-    check('Citation identities and license',cff['cff-version']=='1.2.0' and cff['license']=='MIT' and len(cff['authors'])==2 and cff['authors'][0]['orcid']=='https://orcid.org/0009-0003-2486-0718' and 'doi' not in cff)
+    check('Citation identities and license',cff['cff-version']=='1.2.0' and cff['license']=='MIT' and len(cff['authors'])==2 and cff['authors'][0]['orcid']=='https://orcid.org/0009-0003-2486-0718' and cff.get('doi')=='10.5281/zenodo.23168599' and cff.get('version')=='1.0.0-submission')
     check('MIT selection completed',(ROOT/'LICENSE').read_text().startswith('MIT License') and not (ROOT/'LICENSE_PENDING.md').exists())
     with (ROOT/'reproducibility/traceability.csv').open(encoding='utf-8',newline='') as f:trace=list(csv.DictReader(f))
     unresolved=[]

@@ -2,6 +2,6 @@
   "status": "PASS",
   "schema_url": "https://raw.githubusercontent.com/citation-file-format/citation-file-format/1.2.0/schema.json",
   "schema_sha256": "d68dd24d4311eb63354b3bdd2198c873a667cf7b9dac9ef6e2e715c5b4ed6bcc",
-  "citation_sha256": "483b79ac8b827cc4a4b6e7a5e87d382092d5cb517f03a8cb568a5fe20feb442b",
+  "citation_sha256": "1523c841dd456b3cf9107cfc4dbc9c297115e75982865290f6fe4dc0dac11bda",
   "validator": "jsonschema 4.26.0; isolated packaging QA dependency, not a reproduction runtime dependency"
 }

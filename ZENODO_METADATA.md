@@ -75,7 +75,14 @@ The accompanying `ZENODO_SHA256_MANIFEST.csv` hashes every file in the ZIP;
 `ZENODO_ARCHIVE_REPORT.md` records the ZIP size, SHA-256, release commit and checks.
 These two sidecars remain outside the ZIP to avoid circular self-hashes.
 
-No journal DOI, Zenodo record URL, version DOI or concept DOI is assigned in
-this metadata file. Enter only identifiers actually returned by Zenodo.
-Use the published version DOI for the immutable submission archive, and record
-the concept DOI separately. Do not move the release tag when adding DOI metadata.
+Published record: https://zenodo.org/records/23168599
+
+Version DOI: https://doi.org/10.5281/zenodo.23168599
+
+Concept DOI: https://doi.org/10.5281/zenodo.23168598
+
+The version DOI identifies this immutable submission archive; the concept DOI
+identifies the software family. No journal-article DOI is assigned. The DOI
+backfill does not change the release tag or archived ZIP. The metadata above
+records the author-supplied metadata; see submission/DOI_RECORD.md for the
+independent identifier verification and its access boundary.

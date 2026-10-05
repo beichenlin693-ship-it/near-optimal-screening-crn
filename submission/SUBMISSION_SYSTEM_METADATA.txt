@@ -1,0 +1,46 @@
+TITLE
+Near-Optimal Screening under Fixed Simulation Budgets: Preservation, Efficiency, and the Role of Common Random Numbers
+
+ARTICLE TYPE
+Research article (confirm the exact category label in the submission system)
+
+AUTHOR 1
+Given name: Beichen
+Family name: Lin
+Affiliation: School of Science, Minzu University of China
+City: Beijing
+Country: China
+Email: beichenlin693@gmail.com
+ORCID: 0009-0003-2486-0718
+Corresponding author: YES
+
+AUTHOR 2
+Given name: Maodong
+Family name: Zhang
+Affiliation: Xinjiang University
+City: Urumqi
+Region: Xinjiang
+Country: China
+Email: 2132257382@qq.com
+Corresponding author: NO
+
+KEYWORDS
+simulation screening; fixed budget; common random numbers; near-optimal preservation; ranking and selection; dynamic revenue management
+
+FUNDING
+None
+
+COMPETING INTERESTS
+None declared
+
+DATA/CODE
+GitHub: https://github.com/beichenlin693-ship-it/near-optimal-screening-crn
+Zenodo VERSION DOI: https://doi.org/10.5281/zenodo.23168599
+Zenodo CONCEPT DOI: https://doi.org/10.5281/zenodo.23168598
+
+MANUAL ENTRY
+Select the manuscript variant required by the live review model.
+Enter the supplied author details and declaration texts in the appropriate fields.
+No phone number, postal code, coauthor ORCID, reviewer nominations, grant or article DOI is supplied.
+Graphical abstract: NOT SUBMITTED; plan retained. Confirm whether the live interface explicitly requires one.
+Confirm originality, no prior publication, no concurrent review and approval by both authors before actual submission.

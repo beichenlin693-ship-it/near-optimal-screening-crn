@@ -156,7 +156,7 @@ the TeX tables elsewhere requires `booktabs` and `tabularx`.
 
 - Version `1.0.0-submission` is documented in the
   [release notes](RELEASE_NOTES.md) and [Zenodo metadata](ZENODO_METADATA.md).
-  The archival DOI is pending.
+  The version DOI below identifies the archived submission release.
 - [Traceability](reproducibility/traceability.csv) links every main display to its
   machine-readable input, generating script, configuration and seed/reference source.
 - [Verification report](reproducibility/verification_report.md) records the build,
@@ -168,7 +168,19 @@ the TeX tables elsewhere requires `booktabs` and `tabularx`.
   evidence where changing them would break traceability. Human-facing method names
   are mapped in [the results guide](supplement/README.md).
 - [Excluded artifacts](reproducibility/excluded_artifacts.csv) identifies large banks
-  and raw inputs for a future rights-reviewed archive. No Zenodo DOI is assigned.
+  and raw inputs outside this lightweight archive; their redistribution remains subject to source rights.
+
+## Archival release
+
+The reproducibility materials corresponding to the submitted manuscript are archived at Zenodo.
+
+- Version DOI: [https://doi.org/10.5281/zenodo.23168599](https://doi.org/10.5281/zenodo.23168599) — the exact immutable submission release.
+- Concept DOI: [https://doi.org/10.5281/zenodo.23168598](https://doi.org/10.5281/zenodo.23168598) — the persistent software-family identifier across possible future versions.
+- Git tag: `v1.0.0-submission`
+- Archive SHA-256: `dad37435197b3eecccfcf82f3071fe91017e76ded9fe8bafe17262c77473c667`
+
+The DOI backfill is a later metadata commit. The submission tag remains on
+`7491ebdaab868fc740136935bf3ec12f5fca432c`, and the deposited ZIP is unchanged.
 
 ## Citation
 
@@ -189,5 +201,5 @@ does not assign rights in separately owned third-party source data; see the data
 China, Beijing, China. Email: beichenlin693@gmail.com.
 [ORCID: 0009-0003-2486-0718](https://orcid.org/0009-0003-2486-0718).
 
-**Maodong Zhang** — Software Engineering, Xinjiang University, Urumqi, Xinjiang,
+**Maodong Zhang** — Xinjiang University, Urumqi, Xinjiang,
 China. Email: 2132257382@qq.com.
