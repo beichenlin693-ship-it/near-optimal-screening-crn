@@ -1,0 +1,11 @@
+{
+  "figure_input_files": [
+    "results/machine_readable/external/summary_table.csv",
+    "results/machine_readable/formal/CPC_baseline_comparisons.csv",
+    "results/machine_readable/formal/formal_metrics.csv",
+    "results/machine_readable/formal/variance_diagnostics.csv",
+    "results/machine_readable/robustness/STRESS_WITH_GAUSSIAN_COMPARATOR.csv",
+    "results/machine_readable/robustness/Table_Sensitivity_2_epsilon_sensitivity_metrics.csv",
+    "results/machine_readable/robustness/Table_Sensitivity_3_structural_reference.csv"
+  ]
+}

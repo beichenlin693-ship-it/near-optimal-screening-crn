@@ -1,0 +1,7 @@
+# Observed and verified with Python 3.14.4; direct runtime/verification imports only.
+numpy==2.5.3
+scipy==1.18.1
+pandas==3.0.6
+matplotlib==3.11.2
+PyYAML==6.0.3
+Pillow==12.3.0

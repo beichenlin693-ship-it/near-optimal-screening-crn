@@ -1,0 +1,4 @@
+epsilon_fraction,epsilon,nref,epsilon_set,set_size,closest_boundary_policy,boundary_distance_paired_MCSE,new_truth_simulator_calls,source
+0.0025,655166.529290625,20000,"[""HYB_08"", ""HYB_06""]",2,HYB_06,30.825669831879473,0,M6 frozen reference
+0.005,1310333.05858125,20000,"[""HYB_08"", ""HYB_06"", ""VEL_06"", ""HYB_07""]",4,HYB_07,58.98908048711306,0,M6 frozen reference
+0.01,2620666.1171625,20000,"[""HYB_08"", ""HYB_06"", ""VEL_06"", ""HYB_07"", ""HYB_04"", ""VEL_05""]",6,HYB_03,22.168056965621084,0,M6 frozen reference

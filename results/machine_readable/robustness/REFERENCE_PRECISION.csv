@@ -1,0 +1,9 @@
+scenario,nref,top1_stable,top3_stable,epsilon_set_stable,minimum_boundary_distance_mcse,boundary_policies_within_3_mcse,reference_uncertain,reference_expanded
+BOOKING_EARLY,3000,True,True,True,18.09958362980469,[],False,False
+BOOKING_LATE,3000,True,True,True,16.480854549872443,[],False,False
+CAP_HIGH,3000,True,True,True,13.559490535720055,[],False,False
+CAP_LOW,3000,True,True,True,29.939047447062542,[],False,False
+DISPERSION_HIGH,3000,True,True,True,5.092011244674355,[],False,False
+DISPERSION_LOW,3000,True,True,True,23.639273220754667,[],False,False
+ETA_HIGH,3000,True,True,True,31.123302506096113,[],False,False
+ETA_LOW,3000,True,True,True,277.94630271424376,[],False,False

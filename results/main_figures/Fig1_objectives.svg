@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="416.16pt" height="186.264pt" viewBox="0 0 416.16 186.264" xmlns="http://www.w3.org/2000/svg" version="1.1">
+ <metadata>
+  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <cc:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:date>2026-10-04T03:10:36.973763</dc:date>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Matplotlib v3.11.2, https://matplotlib.org/</dc:title>
+     </cc:Agent>
+    </dc:creator>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M 0 186.264 
+L 416.16 186.264 
+L 416.16 0 
+L 0 0 
+z
+" style="fill: #ffffff"/>
+  </g>
+  <g id="axes_1">
+   <g id="patch_2">
+    <path d="M 115.6752 52.74396 
+L 300.4848 52.74396 
+Q 306.5112 52.74396 306.5112 50.166 
+L 306.5112 17.51184 
+Q 306.5112 14.93388 300.4848 14.93388 
+L 115.6752 14.93388 
+Q 109.6488 14.93388 109.6488 17.51184 
+L 109.6488 50.166 
+Q 109.6488 52.74396 115.6752 52.74396 
+z
+" clip-path="url(#pb78d1977b1)" style="fill: #333333; opacity: 0.12"/>
+   </g>
+   <g id="patch_3">
+    <path d="M 15.2352 130.08276 
+L 131.7456 130.08276 
+Q 137.772 130.08276 137.772 127.5048 
+L 137.772 74.22696 
+Q 137.772 71.649 131.7456 71.649 
+L 15.2352 71.649 
+Q 9.2088 71.649 9.2088 74.22696 
+L 9.2088 127.5048 
+Q 9.2088 130.08276 15.2352 130.08276 
+z
+" clip-path="url(#pb78d1977b1)" style="fill: #0072b2; opacity: 0.12"/>
+   </g>
+   <g id="patch_4">
+    <path d="M 149.8248 130.08276 
+L 266.3352 130.08276 
+Q 272.3616 130.08276 272.3616 127.5048 
+L 272.3616 74.22696 
+Q 272.3616 71.649 266.3352 71.649 
+L 149.8248 71.649 
+Q 143.7984 71.649 143.7984 74.22696 
+L 143.7984 127.5048 
+Q 143.7984 130.08276 149.8248 130.08276 
+z
+" clip-path="url(#pb78d1977b1)" style="fill: #009e73; opacity: 0.12"/>
+   </g>
+   <g id="patch_5">
+    <path d="M 284.4144 130.08276 
+L 400.9248 130.08276 
+Q 406.9512 130.08276 406.9512 127.5048 
+L 406.9512 74.22696 
+Q 406.9512 71.649 400.9248 71.649 
+L 284.4144 71.649 
+Q 278.388 71.649 278.388 74.22696 
+L 278.388 127.5048 
+Q 278.388 130.08276 284.4144 130.08276 
+z
+" clip-path="url(#pb78d1977b1)" style="fill: #d55e00; opacity: 0.12"/>
+   </g>
+   <g id="text_1">
+    <text style="font-weight: 700; font-size: 10px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #333333" x="208.08" y="32.844157" transform="rotate(-0 208.08 32.844157)">Fixed budget B</text>
+   </g>
+   <g id="text_2">
+    <text style="font-size: 9px; font-family: 'DejaVu Sans'; text-anchor: middle" x="208.08" y="40.618957" transform="rotate(-0 208.08 40.618957)">One charge per alternative–replication</text>
+   </g>
+   <g id="text_3">
+    <text style="font-weight: 700; font-size: 10px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #0072b2" x="73.4904" y="89.559278" transform="rotate(-0 73.4904 89.559278)">Preservation</text>
+   </g>
+   <g id="text_4">
+    <text style="font-size: 9px; font-family: 'DejaVu Sans'" transform="translate(30.490088 100.445918)">Do all near-optimal</text>
+    <text style="font-size: 9px; font-family: 'DejaVu Sans'" transform="translate(26.567353 115.717793)">alternatives survive?</text>
+   </g>
+   <g id="text_5">
+    <text style="font-weight: 700; font-size: 10px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #009e73" x="208.08" y="89.559278" transform="rotate(-0 208.08 89.559278)">Screening efficiency</text>
+   </g>
+   <g id="text_6">
+    <text style="font-size: 9px; font-family: 'DejaVu Sans'" transform="translate(166.587188 100.445918)">How many inferior</text>
+    <text style="font-size: 9px; font-family: 'DejaVu Sans'" transform="translate(148.895859 115.717793)">alternatives are removed?</text>
+   </g>
+   <g id="text_7">
+    <text style="font-weight: 700; font-size: 10px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #d55e00" x="342.6696" y="89.559278" transform="rotate(-0 342.6696 89.559278)">Recommendation</text>
+   </g>
+   <g id="text_8">
+    <text style="font-size: 9px; font-family: 'DejaVu Sans'" transform="translate(288.016397 100.445918)">Is the final choice good?</text>
+    <text style="font-size: 9px; font-family: 'DejaVu Sans'" transform="translate(295.693116 114.845917)">How large is its loss?</text>
+   </g>
+   <g id="patch_6">
+    <path d="M 206.104365 52.187374 
+Q 140.786888 62.196221 76.574546 72.035725 
+" style="fill: none; stroke: #777777; stroke-linecap: round"/>
+    <path d="M 80.405649 73.26968 
+L 76.574546 72.035725 
+L 79.860372 69.711215 
+" style="fill: none; stroke: #777777; stroke-linecap: round"/>
+   </g>
+   <g id="patch_7">
+    <path d="M 208.08 53.886084 
+Q 208.08 62.199257 208.08 69.394397 
+" style="fill: none; stroke: #777777; stroke-linecap: round"/>
+    <path d="M 209.88 65.794397 
+L 208.08 69.394397 
+L 206.28 65.794397 
+" style="fill: none; stroke: #777777; stroke-linecap: round"/>
+   </g>
+   <g id="patch_8">
+    <path d="M 210.055635 52.187374 
+Q 275.373112 62.196221 339.585454 72.035725 
+" style="fill: none; stroke: #777777; stroke-linecap: round"/>
+    <path d="M 336.299628 69.711215 
+L 339.585454 72.035725 
+L 335.754351 73.26968 
+" style="fill: none; stroke: #777777; stroke-linecap: round"/>
+   </g>
+   <g id="text_9">
+    <text style="font-size: 9px; font-family: 'DejaVu Sans'; text-anchor: middle" x="208.08" y="153.2844" transform="rotate(-0 208.08 153.2844)">A survivor set and a single recommendation answer different questions.</text>
+   </g>
+   <g id="text_10">
+    <text style="font-size: 8px; font-family: 'DejaVu Sans'; text-anchor: middle" x="208.08" y="171.33012" transform="rotate(-0 208.08 171.33012)">Retain all: preservation = 1, screening power = 0; recommendation can still err.</text>
+   </g>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="pb78d1977b1">
+   <rect x="7.2" y="7.2" width="401.76" height="171.864"/>
+  </clipPath>
+ </defs>
+</svg>

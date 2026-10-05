@@ -1,0 +1,82 @@
+{
+  "methods": [
+    "Uniform",
+    "SH",
+    "SR",
+    "OCBA",
+    "CPC-v1",
+    "CPC-v2"
+  ],
+  "K": 32,
+  "primary_budgets": [
+    256,
+    512,
+    1024
+  ],
+  "WNBA_macro_replications": 300,
+  "crn_modes": [
+    false,
+    true
+  ],
+  "epsilon": 1310333.05858125,
+  "delta": 0.05,
+  "n0": 2,
+  "min_stage_batch": 6,
+  "R_cal": 262066611.71625,
+  "R_max": 652162402.546875,
+  "formal_reference_nref": 20000,
+  "reference_checkpoints": [
+    2000,
+    5000,
+    10000,
+    20000
+  ],
+  "truth_bootstrap_replicates": 2000,
+  "synthetic_K": 32,
+  "synthetic_macro_replications": 5000,
+  "synthetic_budgets": [
+    256,
+    512,
+    1024
+  ],
+  "synthetic_sigma_total": 0.007,
+  "synthetic_regimes": {
+    "G1": 0.2,
+    "G2": 0.9,
+    "G3": 0.99
+  },
+  "synthetic_epsilon": 0.0020092128179484683,
+  "variance_paths_per_pair_mode": 5000,
+  "variance_bootstrap_replicates": 2000,
+  "variance_pairs": {
+    "near_tie": [
+      "TIME_MILD_INCREASE",
+      "VEL_01"
+    ],
+    "medium_gap": [
+      "HYB_01",
+      "VEL_06"
+    ],
+    "large_gap": [
+      "HYB_08",
+      "INV_04"
+    ]
+  },
+  "intervals": {
+    "PGS_PCS_Top3_preservation": "Wilson two-sided 95%",
+    "EOC": "Student-t two-sided 95%; ddof=1 SD and MCSE",
+    "synthetic_false_elimination": "Clopper-Pearson two-sided 95% plus one-sided 95% upper bound",
+    "independent_proportion_difference": "Newcombe hybrid-score interval from independent Wilson limits",
+    "independent_mean_difference": "Welch-Satterthwaite two-sided 95%; degenerate SE=0 gives point interval",
+    "reference_sensitivity": "Path-level percentile bootstrap 2.5/97.5%, distinct from selection MC uncertainty",
+    "VRR": "Resample rows jointly within each ON/OFF matrix independently; percentile 95%"
+  },
+  "ocba": {
+    "n0": 5,
+    "gap_floor": 1e-06,
+    "variance_floor": 1e-12,
+    "batch_size": 32
+  },
+  "bootstrap_best_ties": "lowest policy ID, rank by mean descending then ID",
+  "reference_uncertain_rule": "top1/top3/epsilon-set changes 10000->20000 OR any nonbest policy within 3 paired-gap MCSE of epsilon boundary"
+}

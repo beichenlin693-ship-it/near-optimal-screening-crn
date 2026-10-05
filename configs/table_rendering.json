@@ -1,0 +1,84 @@
+[
+  {
+    "stem": "Table1_methods",
+    "csv": "results/machine_readable/main_table_rows/Table1_methods.csv",
+    "headers": [
+      "Method",
+      "Fixed / adaptive",
+      "Set target",
+      "Pair",
+      "Multiplicity",
+      "Native choice"
+    ],
+    "line_ending": "\r\n",
+    "prefix": "\\begin{table}[tbp]\\centering\\footnotesize\n\\caption{Properties of the evaluated implementations. Fixed means a predetermined total evaluation budget. Set targets describe stated objectives, not verified WNBA coverage. Pair denotes explicit paired elimination evidence. A dash means absent, rather than an unsuccessful guarantee.}\\label{tab:methods}\n\\begin{tabularx}{\\linewidth}{lXXXXl}\\toprule\nMethod & Fixed / adaptive & Set target & Pair & Multiplicity & Native choice \\\\ \\midrule\n",
+    "suffix": "\\bottomrule\\end{tabularx}\n\\end{table}\n",
+    "row_separator": " & ",
+    "row_terminator": " \\\\\n",
+    "approved_sha256": "3106d76cdec9508b10057092f943ef8b2979a2562e753173389473c1e7b76ce9"
+  },
+  {
+    "stem": "Table2_design",
+    "csv": "results/machine_readable/main_table_rows/Table2_design.csv",
+    "headers": [
+      "Stratum",
+      "Budgets",
+      "Selections per cell",
+      "Truth / reference"
+    ],
+    "line_ending": "\r\n",
+    "prefix": "\\begin{table}[tbp]\\centering\\footnotesize\n\\caption{Experimental designs, sample sizes and reference targets. Reused observations do not constitute additional independent evidence.}\\label{tab:design}\n\\begin{tabularx}{\\linewidth}{XlXX}\\toprule\nStratum & Budgets & Selections per cell & Truth / reference \\\\ \\midrule\n",
+    "suffix": "\\bottomrule\\end{tabularx}\n\\end{table}\n",
+    "row_separator": " & ",
+    "row_terminator": " \\\\\n",
+    "approved_sha256": "d342b5b1427b13e313139efea87de7e1caa30767df2095aab31da7af3fd490af"
+  },
+  {
+    "stem": "Table3_external",
+    "csv": "results/machine_readable/main_table_rows/Table3_external.csv",
+    "headers": [
+      "Setting",
+      "Method",
+      "Preserved",
+      "Mean active [95\\% CI]",
+      "Mean power"
+    ],
+    "line_ending": "\r\n",
+    "prefix": "\\begin{table}[tbp]\\centering\\footnotesize\n\\caption{External screening at B=512. Active-set intervals are individual 95\\% macro-bootstrap intervals. Preservation is population-based in G2 and plug-in in WNBA. The Gaussian OFF CPC power interval in the last column is an identification bound, not a confidence interval; complete uncertainty envelopes are supplementary.}\\label{tab:external}\n\\begin{tabularx}{\\linewidth}{lllXX}\\toprule\nSetting & Method & Preserved & Mean active [95\\% CI] & Mean power \\\\ \\midrule\n",
+    "suffix": "\\bottomrule\\end{tabularx}\n\\end{table}\n",
+    "row_separator": " & ",
+    "row_terminator": " \\\\\n",
+    "approved_sha256": "969312e710a4073a5dfbe210f05e5af24fd0b8db447ba7be07cfac295af9f4ba"
+  },
+  {
+    "stem": "Table4_recommendation",
+    "csv": "results/machine_readable/main_table_rows/Table4_recommendation.csv",
+    "headers": [
+      "Budget",
+      "Method",
+      "PGS (\\%) [95\\% CI]",
+      "EOC [95\\% CI]"
+    ],
+    "line_ending": "\r\n",
+    "prefix": "\\begin{table}[tbp]\\centering\\footnotesize\n\\caption{Formal WNBA OFF recommendation outcomes, M=300 per cell. PGS uses individual Wilson 95\\% intervals; EOC uses Student intervals in million proxy units. All metrics use the finite reference. ON outcomes and all predecessor cells are included in Figure~\\ref{fig:recommendation} and the supplement.}\\label{tab:recommendation}\n\\begin{tabularx}{\\linewidth}{llXX}\\toprule\nBudget & Method & PGS (\\%) [95\\% CI] & EOC [95\\% CI] \\\\ \\midrule\n",
+    "suffix": "\\bottomrule\\end{tabularx}\n\\end{table}\n",
+    "row_separator": " & ",
+    "row_terminator": " \\\\\n",
+    "approved_sha256": "921b15dc88fb558bc965f03601ff3f10b6ea66b57576dd74da7cda286eb8c260"
+  },
+  {
+    "stem": "Table5_adverse",
+    "csv": "results/machine_readable/main_table_rows/Table5_adverse.csv",
+    "headers": [
+      "Evidence",
+      "Observed result",
+      "Interpretive boundary"
+    ],
+    "line_ending": "\r\n",
+    "prefix": "\\begin{table}[tbp]\\centering\\footnotesize\n\\caption{Adverse evidence retained in the main interpretation. These conditions are not pooled into a single success rate.}\\label{tab:adverse}\n\\begin{tabularx}{\\linewidth}{XXX}\\toprule\nEvidence & Observed result & Interpretive boundary \\\\ \\midrule\n",
+    "suffix": "\\bottomrule\\end{tabularx}\n\\end{table}\n",
+    "row_separator": " & ",
+    "row_terminator": " \\\\\n",
+    "approved_sha256": "3fc250bd74d95207214e34e3d34438e7e80dd279a228f2de25e1e0456c122ba2"
+  }
+]

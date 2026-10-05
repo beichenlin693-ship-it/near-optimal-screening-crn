@@ -1,0 +1,32 @@
+[
+  {
+    "table": "Table1_methods",
+    "sha256": "3106d76cdec9508b10057092f943ef8b2979a2562e753173389473c1e7b76ce9",
+    "byte_identical": true,
+    "numerical_summary_checked": false
+  },
+  {
+    "table": "Table2_design",
+    "sha256": "d342b5b1427b13e313139efea87de7e1caa30767df2095aab31da7af3fd490af",
+    "byte_identical": true,
+    "numerical_summary_checked": false
+  },
+  {
+    "table": "Table3_external",
+    "sha256": "969312e710a4073a5dfbe210f05e5af24fd0b8db447ba7be07cfac295af9f4ba",
+    "byte_identical": true,
+    "numerical_summary_checked": true
+  },
+  {
+    "table": "Table4_recommendation",
+    "sha256": "921b15dc88fb558bc965f03601ff3f10b6ea66b57576dd74da7cda286eb8c260",
+    "byte_identical": true,
+    "numerical_summary_checked": true
+  },
+  {
+    "table": "Table5_adverse",
+    "sha256": "3fc250bd74d95207214e34e3d34438e7e80dd279a228f2de25e1e0456c122ba2",
+    "byte_identical": true,
+    "numerical_summary_checked": false
+  }
+]

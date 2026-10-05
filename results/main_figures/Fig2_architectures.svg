@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="416.16pt" height="225.072pt" viewBox="0 0 416.16 225.072" xmlns="http://www.w3.org/2000/svg" version="1.1">
+ <metadata>
+  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <cc:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:date>2026-10-04T03:10:37.217921</dc:date>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Matplotlib v3.11.2, https://matplotlib.org/</dc:title>
+     </cc:Agent>
+    </dc:creator>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M 0 225.072 
+L 416.16 225.072 
+L 416.16 -0 
+L 0 -0 
+z
+" style="fill: #ffffff"/>
+  </g>
+  <g id="axes_1">
+   <g id="patch_2">
+    <path d="M 63.4464 119.90952 
+L 216.1152 119.90952 
+Q 222.1416 119.90952 222.1416 116.74944 
+L 222.1416 34.58736 
+Q 222.1416 31.42728 216.1152 31.42728 
+L 63.4464 31.42728 
+Q 57.42 31.42728 57.42 34.58736 
+L 57.42 116.74944 
+Q 57.42 119.90952 63.4464 119.90952 
+z
+" clip-path="url(#p6ecdabd121)" style="fill: #777777; opacity: 0.12"/>
+   </g>
+   <g id="patch_3">
+    <path d="M 244.2384 119.90952 
+L 396.9072 119.90952 
+Q 402.9336 119.90952 402.9336 116.74944 
+L 402.9336 34.58736 
+Q 402.9336 31.42728 396.9072 31.42728 
+L 244.2384 31.42728 
+Q 238.212 31.42728 238.212 34.58736 
+L 238.212 116.74944 
+Q 238.212 119.90952 244.2384 119.90952 
+z
+" clip-path="url(#p6ecdabd121)" style="fill: #009e73; opacity: 0.12"/>
+   </g>
+   <g id="patch_4">
+    <path d="M 63.4464 206.28504 
+L 216.1152 206.28504 
+Q 222.1416 206.28504 222.1416 203.12496 
+L 222.1416 133.6032 
+Q 222.1416 130.44312 216.1152 130.44312 
+L 63.4464 130.44312 
+Q 57.42 130.44312 57.42 133.6032 
+L 57.42 203.12496 
+Q 57.42 206.28504 63.4464 206.28504 
+z
+" clip-path="url(#p6ecdabd121)" style="fill: #d55e00; opacity: 0.12"/>
+   </g>
+   <g id="patch_5">
+    <path d="M 244.2384 206.28504 
+L 396.9072 206.28504 
+Q 402.9336 206.28504 402.9336 203.12496 
+L 402.9336 133.6032 
+Q 402.9336 130.44312 396.9072 130.44312 
+L 244.2384 130.44312 
+Q 238.212 130.44312 238.212 133.6032 
+L 238.212 203.12496 
+Q 238.212 206.28504 244.2384 206.28504 
+z
+" clip-path="url(#p6ecdabd121)" style="fill: #0072b2; opacity: 0.12"/>
+   </g>
+   <g id="text_1">
+    <text style="font-weight: 700; font-size: 9px; font-family: 'DejaVu Sans'; text-anchor: middle" x="135.7632" y="18.252034" transform="rotate(-0 135.7632 18.252034)">Marginal / independent evidence</text>
+   </g>
+   <g id="text_2">
+    <text style="font-weight: 700; font-size: 9px; font-family: 'DejaVu Sans'; text-anchor: middle" x="316.5552" y="18.252034" transform="rotate(-0 316.5552 18.252034)">Paired evidence under CRN</text>
+   </g>
+   <g id="text_3">
+    <text style="font-weight: 700; font-size: 9px; font-family: 'DejaVu Sans'" transform="translate(23.599842 112.774179) rotate(-90)">Fixed allocation</text>
+   </g>
+   <g id="text_4">
+    <text style="font-weight: 700; font-size: 9px; font-family: 'DejaVu Sans'" transform="translate(23.599842 214.317984) rotate(-90)">Adaptive allocation</text>
+   </g>
+   <g id="text_5">
+    <text style="font-weight: 700; font-size: 10px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #777777" x="139.7808" y="51.665256" transform="rotate(-0 139.7808 51.665256)">DSTTB (OFF) / B1 (ON)</text>
+   </g>
+   <g id="text_6">
+    <text style="font-size: 9px; font-family: 'DejaVu Sans'" transform="translate(101.184863 69.018637)">Balanced sample</text>
+    <text style="font-size: 9px; font-family: 'DejaVu Sans'" transform="translate(68.91705 83.418637)">Independent / Bonferroni boxes</text>
+    <text style="font-size: 9px; font-family: 'DejaVu Sans'" transform="translate(68.46705 97.818637)">No covariance-based narrowing</text>
+   </g>
+   <g id="text_7">
+    <text style="font-weight: 700; font-size: 10px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #009e73" x="320.5728" y="51.665256" transform="rotate(-0 320.5728 51.665256)">B2 (ON)</text>
+   </g>
+   <g id="text_8">
+    <text style="font-size: 9px; font-family: 'DejaVu Sans'" transform="translate(249.390534 69.018637)">Standardized paired adaptation</text>
+    <text style="font-size: 9px; font-family: 'DejaVu Sans'" transform="translate(253.036941 83.418637)">All directed paired differences</text>
+    <text style="font-size: 9px; font-family: 'DejaVu Sans'" transform="translate(268.805925 97.818637)">Bonferroni across pairs</text>
+   </g>
+   <g id="text_9">
+    <text style="font-weight: 700; font-size: 10px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #d55e00" x="139.7808" y="150.681096" transform="rotate(-0 139.7808 150.681096)">CPC (OFF)</text>
+   </g>
+   <g id="text_10">
+    <text style="font-size: 9px; font-family: 'DejaVu Sans'" transform="translate(74.396503 168.914317)">Fresh stage-local Welch tests</text>
+    <text style="font-size: 9px; font-family: 'DejaVu Sans'" transform="translate(83.077988 183.314317)">Approximate test validity</text>
+   </g>
+   <g id="text_11">
+    <text style="font-weight: 700; font-size: 10px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #0072b2" x="320.5728" y="150.681096" transform="rotate(-0 320.5728 150.681096)">CPC (ON)</text>
+   </g>
+   <g id="text_12">
+    <text style="font-size: 9px; font-family: 'DejaVu Sans'" transform="translate(254.478347 168.914317)">Fresh stage-local paired tests</text>
+    <text style="font-size: 9px; font-family: 'DejaVu Sans'" transform="translate(252.544753 184.186192)">Conditional Gaussian theorem</text>
+   </g>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="p6ecdabd121">
+   <rect x="7.2" y="7.2" width="401.76" height="210.672"/>
+  </clipPath>
+ </defs>
+</svg>

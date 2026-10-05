@@ -1,0 +1,605 @@
+{
+  "status": "PASS",
+  "source_artifacts": 98,
+  "byte_identical_artifacts": 69,
+  "all_included_result_files_byte_identical": true,
+  "forecast_projection_string_equal": true,
+  "forecast_rows": 1578,
+  "formal_parameters_equal": true,
+  "external_parameters_equal": true,
+  "robustness_shared_parameters_equal": true,
+  "packaging_changes": "Paths, documentation and selected API extraction only; source comparison scope is explicit in code_equivalence.json.",
+  "scientific_result_modifications": 0,
+  "new_experiments": 0,
+  "new_simulator_calls": 0,
+  "checks": [
+    {
+      "path": "src/simulator/state.py",
+      "source_unchanged": true,
+      "target_matches_record": true,
+      "byte_identical": false
+    },
+    {
+      "path": "src/simulator/simulator.py",
+      "source_unchanged": true,
+      "target_matches_record": true,
+      "byte_identical": false
+    },
+    {
+      "path": "src/simulator/season.py",
+      "source_unchanged": true,
+      "target_matches_record": true,
+      "byte_identical": false
+    },
+    {
+      "path": "src/simulator/demand.py",
+      "source_unchanged": true,
+      "target_matches_record": true,
+      "byte_identical": false
+    },
+    {
+      "path": "src/simulator/inventory.py",
+      "source_unchanged": true,
+      "target_matches_record": true,
+      "byte_identical": false
+    },
+    {
+      "path": "src/simulator/exogenous.py",
+      "source_unchanged": true,
+      "target_matches_record": true,
+      "byte_identical": false
+    },
+    {
+      "path": "src/simulator/policies.py",
+      "source_unchanged": true,
+      "target_matches_record": true,
+      "byte_identical": false
+    },
+    {
+      "path": "src/simulator/config.py",
+      "source_unchanged": true,
+      "target_matches_record": true,
+      "byte_identical": false
+    },
+    {
+      "path": "src/simulator/policy_pool.py",
+      "source_unchanged": true,
+      "target_matches_record": true,
+      "byte_identical": false
+    },
+    {
+      "path": "src/simulator/path_bank.py",
+      "source_unchanged": true,
+      "target_matches_record": true,
+      "byte_identical": false
+    },
+    {
+      "path": "src/simulator/inputs.py",
+      "source_unchanged": true,
+      "target_matches_record": true,
+      "byte_identical": false
+    },
+    {
+      "path": "src/screening/paired_t.py",
+      "source_unchanged": true,
+      "target_matches_record": true,
+      "byte_identical": false
+    },
+    {
+      "path": "src/screening/welch_t.py",
+      "source_unchanged": true,
+      "target_matches_record": true,
+      "byte_identical": false
+    },
+    {
+      "path": "src/screening/holm.py",
+      "source_unchanged": true,
+      "target_matches_record": true,
+      "byte_identical": false
+    },
+    {
+      "path": "src/screening/stage_alpha.py",
+      "source_unchanged": true,
+      "target_matches_record": true,
+      "byte_identical": false
+    },
+    {
+      "path": "src/screening/cpc.py",
+      "source_unchanged": true,
+      "target_matches_record": true,
+      "byte_identical": false
+    },
+    {
+      "path": "src/baselines/budget.py",
+      "source_unchanged": true,
+      "target_matches_record": true,
+      "byte_identical": false
+    },
+    {
+      "path": "src/baselines/cache.py",
+      "source_unchanged": true,
+      "target_matches_record": true,
+      "byte_identical": false
+    },
+    {
+      "path": "src/baselines/common.py",
+      "source_unchanged": true,
+      "target_matches_record": true,
+      "byte_identical": false
+    },
+    {
+      "path": "src/baselines/uniform.py",
+      "source_unchanged": true,
+      "target_matches_record": true,
+      "byte_identical": false
+    },
+    {
+      "path": "src/baselines/successive_halving.py",
+      "source_unchanged": true,
+      "target_matches_record": true,
+      "byte_identical": false
+    },
+    {
+      "path": "src/baselines/successive_rejects.py",
+      "source_unchanged": true,
+      "target_matches_record": true,
+      "byte_identical": false
+    },
+    {
+      "path": "src/baselines/ocba.py",
+      "source_unchanged": true,
+      "target_matches_record": true,
+      "byte_identical": false
+    },
+    {
+      "path": "src/baselines/bounded_cpc.py",
+      "source_unchanged": true,
+      "target_matches_record": true,
+      "byte_identical": false
+    },
+    {
+      "path": "src/metrics/bounded_ci.py",
+      "source_unchanged": true,
+      "target_matches_record": true,
+      "byte_identical": false
+    },
+    {
+      "path": "src/metrics/selection.py",
+      "source_unchanged": true,
+      "target_matches_record": true,
+      "byte_identical": false
+    },
+    {
+      "path": "src/metrics/statistics.py",
+      "source_unchanged": true,
+      "target_matches_record": true,
+      "byte_identical": false
+    },
+    {
+      "path": "src/baselines/fixed_sample.py",
+      "source_unchanged": true,
+      "target_matches_record": true,
+      "byte_identical": false
+    },
+    {
+      "path": "results/machine_readable/external/comparison_effects.csv",
+      "source_unchanged": true,
+      "target_matches_record": true,
+      "byte_identical": true
+    },
+    {
+      "path": "results/machine_readable/external/recommendation_summary.csv",
+      "source_unchanged": true,
+      "target_matches_record": true,
+      "byte_identical": true
+    },
+    {
+      "path": "results/machine_readable/external/summary_table.csv",
+      "source_unchanged": true,
+      "target_matches_record": true,
+      "byte_identical": true
+    },
+    {
+      "path": "results/machine_readable/formal/CPC_baseline_comparisons.csv",
+      "source_unchanged": true,
+      "target_matches_record": true,
+      "byte_identical": true
+    },
+    {
+      "path": "results/machine_readable/formal/formal_metrics.csv",
+      "source_unchanged": true,
+      "target_matches_record": true,
+      "byte_identical": true
+    },
+    {
+      "path": "results/machine_readable/formal/ON_OFF_comparisons.csv",
+      "source_unchanged": true,
+      "target_matches_record": true,
+      "byte_identical": true
+    },
+    {
+      "path": "results/machine_readable/formal/policy_family_summary.csv",
+      "source_unchanged": true,
+      "target_matches_record": true,
+      "byte_identical": true
+    },
+    {
+      "path": "results/machine_readable/formal/selected_policy_distribution.csv",
+      "source_unchanged": true,
+      "target_matches_record": true,
+      "byte_identical": true
+    },
+    {
+      "path": "results/machine_readable/formal/synthetic_metrics.csv",
+      "source_unchanged": true,
+      "target_matches_record": true,
+      "byte_identical": true
+    },
+    {
+      "path": "results/machine_readable/formal/synthetic_preservation.csv",
+      "source_unchanged": true,
+      "target_matches_record": true,
+      "byte_identical": true
+    },
+    {
+      "path": "results/machine_readable/formal/synthetic_variance_ratios.csv",
+      "source_unchanged": true,
+      "target_matches_record": true,
+      "byte_identical": true
+    },
+    {
+      "path": "results/machine_readable/formal/variance_diagnostics.csv",
+      "source_unchanged": true,
+      "target_matches_record": true,
+      "byte_identical": true
+    },
+    {
+      "path": "results/machine_readable/formal/reference_sets.csv",
+      "source_unchanged": true,
+      "target_matches_record": true,
+      "byte_identical": true
+    },
+    {
+      "path": "results/machine_readable/formal/reference_truth.csv",
+      "source_unchanged": true,
+      "target_matches_record": true,
+      "byte_identical": true
+    },
+    {
+      "path": "results/machine_readable/formal/reference_truth_convergence.csv",
+      "source_unchanged": true,
+      "target_matches_record": true,
+      "byte_identical": true
+    },
+    {
+      "path": "results/machine_readable/formal/reference_epsilon_membership_bootstrap.csv",
+      "source_unchanged": true,
+      "target_matches_record": true,
+      "byte_identical": true
+    },
+    {
+      "path": "results/machine_readable/formal/reference_metric_uncertainty.csv",
+      "source_unchanged": true,
+      "target_matches_record": true,
+      "byte_identical": true
+    },
+    {
+      "path": "results/machine_readable/formal/reference_rank_distribution.csv",
+      "source_unchanged": true,
+      "target_matches_record": true,
+      "byte_identical": true
+    },
+    {
+      "path": "results/machine_readable/formal/reference_top1_bootstrap_frequency.csv",
+      "source_unchanged": true,
+      "target_matches_record": true,
+      "byte_identical": true
+    },
+    {
+      "path": "results/machine_readable/robustness/Table_Sensitivity_1_epsilon_sets.csv",
+      "source_unchanged": true,
+      "target_matches_record": true,
+      "byte_identical": true
+    },
+    {
+      "path": "results/machine_readable/robustness/Table_Sensitivity_2_epsilon_sensitivity_metrics.csv",
+      "source_unchanged": true,
+      "target_matches_record": true,
+      "byte_identical": true
+    },
+    {
+      "path": "results/machine_readable/robustness/Table_Sensitivity_3_structural_reference.csv",
+      "source_unchanged": true,
+      "target_matches_record": true,
+      "byte_identical": true
+    },
+    {
+      "path": "results/machine_readable/robustness/Table_Sensitivity_4_structural_performance.csv",
+      "source_unchanged": true,
+      "target_matches_record": true,
+      "byte_identical": true
+    },
+    {
+      "path": "results/machine_readable/robustness/Table_Sensitivity_5_CPC_structural_diagnostics.csv",
+      "source_unchanged": true,
+      "target_matches_record": true,
+      "byte_identical": true
+    },
+    {
+      "path": "results/machine_readable/robustness/Table_Sensitivity_6_nonGaussian_stress.csv",
+      "source_unchanged": true,
+      "target_matches_record": true,
+      "byte_identical": true
+    },
+    {
+      "path": "results/machine_readable/robustness/NONGAUSSIAN_METRICS.csv",
+      "source_unchanged": true,
+      "target_matches_record": true,
+      "byte_identical": true
+    },
+    {
+      "path": "results/machine_readable/robustness/STRESS_WITH_GAUSSIAN_COMPARATOR.csv",
+      "source_unchanged": true,
+      "target_matches_record": true,
+      "byte_identical": true
+    },
+    {
+      "path": "results/main_figures/Fig1_objectives.pdf",
+      "source_unchanged": true,
+      "target_matches_record": true,
+      "byte_identical": true
+    },
+    {
+      "path": "results/main_figures/Fig1_objectives.png",
+      "source_unchanged": true,
+      "target_matches_record": true,
+      "byte_identical": true
+    },
+    {
+      "path": "results/main_figures/Fig1_objectives.svg",
+      "source_unchanged": true,
+      "target_matches_record": true,
+      "byte_identical": true
+    },
+    {
+      "path": "results/main_figures/Fig2_architectures.pdf",
+      "source_unchanged": true,
+      "target_matches_record": true,
+      "byte_identical": true
+    },
+    {
+      "path": "results/main_figures/Fig2_architectures.png",
+      "source_unchanged": true,
+      "target_matches_record": true,
+      "byte_identical": true
+    },
+    {
+      "path": "results/main_figures/Fig2_architectures.svg",
+      "source_unchanged": true,
+      "target_matches_record": true,
+      "byte_identical": true
+    },
+    {
+      "path": "results/main_figures/Fig3_external.pdf",
+      "source_unchanged": true,
+      "target_matches_record": true,
+      "byte_identical": true
+    },
+    {
+      "path": "results/main_figures/Fig3_external.png",
+      "source_unchanged": true,
+      "target_matches_record": true,
+      "byte_identical": true
+    },
+    {
+      "path": "results/main_figures/Fig3_external.svg",
+      "source_unchanged": true,
+      "target_matches_record": true,
+      "byte_identical": true
+    },
+    {
+      "path": "results/main_figures/Fig4_crn.pdf",
+      "source_unchanged": true,
+      "target_matches_record": true,
+      "byte_identical": true
+    },
+    {
+      "path": "results/main_figures/Fig4_crn.png",
+      "source_unchanged": true,
+      "target_matches_record": true,
+      "byte_identical": true
+    },
+    {
+      "path": "results/main_figures/Fig4_crn.svg",
+      "source_unchanged": true,
+      "target_matches_record": true,
+      "byte_identical": true
+    },
+    {
+      "path": "results/main_figures/Fig5_recommendation.pdf",
+      "source_unchanged": true,
+      "target_matches_record": true,
+      "byte_identical": true
+    },
+    {
+      "path": "results/main_figures/Fig5_recommendation.png",
+      "source_unchanged": true,
+      "target_matches_record": true,
+      "byte_identical": true
+    },
+    {
+      "path": "results/main_figures/Fig5_recommendation.svg",
+      "source_unchanged": true,
+      "target_matches_record": true,
+      "byte_identical": true
+    },
+    {
+      "path": "results/main_figures/Fig6_epsilon.pdf",
+      "source_unchanged": true,
+      "target_matches_record": true,
+      "byte_identical": true
+    },
+    {
+      "path": "results/main_figures/Fig6_epsilon.png",
+      "source_unchanged": true,
+      "target_matches_record": true,
+      "byte_identical": true
+    },
+    {
+      "path": "results/main_figures/Fig6_epsilon.svg",
+      "source_unchanged": true,
+      "target_matches_record": true,
+      "byte_identical": true
+    },
+    {
+      "path": "results/main_figures/Fig7_robustness.pdf",
+      "source_unchanged": true,
+      "target_matches_record": true,
+      "byte_identical": true
+    },
+    {
+      "path": "results/main_figures/Fig7_robustness.png",
+      "source_unchanged": true,
+      "target_matches_record": true,
+      "byte_identical": true
+    },
+    {
+      "path": "results/main_figures/Fig7_robustness.svg",
+      "source_unchanged": true,
+      "target_matches_record": true,
+      "byte_identical": true
+    },
+    {
+      "path": "results/main_tables/Table1_methods.tex",
+      "source_unchanged": true,
+      "target_matches_record": true,
+      "byte_identical": true
+    },
+    {
+      "path": "results/main_tables/Table2_design.tex",
+      "source_unchanged": true,
+      "target_matches_record": true,
+      "byte_identical": true
+    },
+    {
+      "path": "results/main_tables/Table3_external.tex",
+      "source_unchanged": true,
+      "target_matches_record": true,
+      "byte_identical": true
+    },
+    {
+      "path": "results/main_tables/Table4_recommendation.tex",
+      "source_unchanged": true,
+      "target_matches_record": true,
+      "byte_identical": true
+    },
+    {
+      "path": "results/main_tables/Table5_adverse.tex",
+      "source_unchanged": true,
+      "target_matches_record": true,
+      "byte_identical": true
+    },
+    {
+      "path": "data/derived/gaussian_means.csv",
+      "source_unchanged": true,
+      "target_matches_record": true,
+      "byte_identical": true
+    },
+    {
+      "path": "data/derived/window_demand_forecasts.csv",
+      "source_unchanged": true,
+      "target_matches_record": true,
+      "byte_identical": false
+    },
+    {
+      "path": "results/machine_readable/robustness/CPC_EPSILON_DIAGNOSTICS.csv",
+      "source_unchanged": true,
+      "target_matches_record": true,
+      "byte_identical": true
+    },
+    {
+      "path": "results/machine_readable/robustness/EPSILON_MEMBERSHIP.csv",
+      "source_unchanged": true,
+      "target_matches_record": true,
+      "byte_identical": true
+    },
+    {
+      "path": "results/machine_readable/robustness/EPSILON_METRICS.csv",
+      "source_unchanged": true,
+      "target_matches_record": true,
+      "byte_identical": true
+    },
+    {
+      "path": "results/machine_readable/robustness/EPSILON_SETS.csv",
+      "source_unchanged": true,
+      "target_matches_record": true,
+      "byte_identical": true
+    },
+    {
+      "path": "results/machine_readable/robustness/CPC_STRUCTURAL_DIAGNOSTICS.csv",
+      "source_unchanged": true,
+      "target_matches_record": true,
+      "byte_identical": true
+    },
+    {
+      "path": "results/machine_readable/robustness/FACTOR_SENSITIVITY_SUMMARY.csv",
+      "source_unchanged": true,
+      "target_matches_record": true,
+      "byte_identical": true
+    },
+    {
+      "path": "results/machine_readable/robustness/MECHANISM_CONTRASTS.csv",
+      "source_unchanged": true,
+      "target_matches_record": true,
+      "byte_identical": true
+    },
+    {
+      "path": "results/machine_readable/robustness/REFERENCE_CONVERGENCE.csv",
+      "source_unchanged": true,
+      "target_matches_record": true,
+      "byte_identical": true
+    },
+    {
+      "path": "results/machine_readable/robustness/REFERENCE_FINAL.csv",
+      "source_unchanged": true,
+      "target_matches_record": true,
+      "byte_identical": true
+    },
+    {
+      "path": "results/machine_readable/robustness/REFERENCE_PRECISION.csv",
+      "source_unchanged": true,
+      "target_matches_record": true,
+      "byte_identical": true
+    },
+    {
+      "path": "results/machine_readable/robustness/REFERENCE_RANK_CHANGES.csv",
+      "source_unchanged": true,
+      "target_matches_record": true,
+      "byte_identical": true
+    },
+    {
+      "path": "results/machine_readable/robustness/REFERENCE_SETS.csv",
+      "source_unchanged": true,
+      "target_matches_record": true,
+      "byte_identical": true
+    },
+    {
+      "path": "results/machine_readable/robustness/SCENARIO_BASELINE_CONTRASTS.csv",
+      "source_unchanged": true,
+      "target_matches_record": true,
+      "byte_identical": true
+    },
+    {
+      "path": "results/machine_readable/robustness/SELECTED_POLICY_DISTRIBUTION.csv",
+      "source_unchanged": true,
+      "target_matches_record": true,
+      "byte_identical": true
+    },
+    {
+      "path": "results/machine_readable/robustness/STRUCTURAL_METRICS.csv",
+      "source_unchanged": true,
+      "target_matches_record": true,
+      "byte_identical": true
+    }
+  ]
+}

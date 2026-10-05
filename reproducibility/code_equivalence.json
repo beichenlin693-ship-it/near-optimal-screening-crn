@@ -1,0 +1,137 @@
+[
+  {
+    "path": "src/simulator/state.py",
+    "normalized_scientific_ast_equal": true,
+    "normalization": "imports, docstrings, ROOT/VERSION packaging assignments excluded; selected API subset when documented"
+  },
+  {
+    "path": "src/simulator/simulator.py",
+    "normalized_scientific_ast_equal": true,
+    "normalization": "imports, docstrings, ROOT/VERSION packaging assignments excluded; selected API subset when documented"
+  },
+  {
+    "path": "src/simulator/season.py",
+    "normalized_scientific_ast_equal": true,
+    "normalization": "imports, docstrings, ROOT/VERSION packaging assignments excluded; selected API subset when documented"
+  },
+  {
+    "path": "src/simulator/demand.py",
+    "normalized_scientific_ast_equal": true,
+    "normalization": "imports, docstrings, ROOT/VERSION packaging assignments excluded; selected API subset when documented"
+  },
+  {
+    "path": "src/simulator/inventory.py",
+    "normalized_scientific_ast_equal": true,
+    "normalization": "imports, docstrings, ROOT/VERSION packaging assignments excluded; selected API subset when documented"
+  },
+  {
+    "path": "src/simulator/exogenous.py",
+    "normalized_scientific_ast_equal": true,
+    "normalization": "imports, docstrings, ROOT/VERSION packaging assignments excluded; selected API subset when documented"
+  },
+  {
+    "path": "src/simulator/policies.py",
+    "normalized_scientific_ast_equal": true,
+    "normalization": "imports, docstrings, ROOT/VERSION packaging assignments excluded; selected API subset when documented"
+  },
+  {
+    "path": "src/simulator/config.py",
+    "normalized_scientific_ast_equal": true,
+    "normalization": "imports, docstrings, ROOT/VERSION packaging assignments excluded; selected API subset when documented"
+  },
+  {
+    "path": "src/simulator/policy_pool.py",
+    "normalized_scientific_ast_equal": true,
+    "normalization": "imports, docstrings, ROOT/VERSION packaging assignments excluded; selected API subset when documented"
+  },
+  {
+    "path": "src/simulator/path_bank.py",
+    "normalized_scientific_ast_equal": true,
+    "normalization": "imports, docstrings, ROOT/VERSION packaging assignments excluded; selected API subset when documented"
+  },
+  {
+    "path": "src/screening/paired_t.py",
+    "normalized_scientific_ast_equal": true,
+    "normalization": "imports, docstrings, ROOT/VERSION packaging assignments excluded; selected API subset when documented"
+  },
+  {
+    "path": "src/screening/welch_t.py",
+    "normalized_scientific_ast_equal": true,
+    "normalization": "imports, docstrings, ROOT/VERSION packaging assignments excluded; selected API subset when documented"
+  },
+  {
+    "path": "src/screening/holm.py",
+    "normalized_scientific_ast_equal": true,
+    "normalization": "imports, docstrings, ROOT/VERSION packaging assignments excluded; selected API subset when documented"
+  },
+  {
+    "path": "src/screening/stage_alpha.py",
+    "normalized_scientific_ast_equal": true,
+    "normalization": "imports, docstrings, ROOT/VERSION packaging assignments excluded; selected API subset when documented"
+  },
+  {
+    "path": "src/screening/cpc.py",
+    "normalized_scientific_ast_equal": true,
+    "normalization": "imports, docstrings, ROOT/VERSION packaging assignments excluded; selected API subset when documented"
+  },
+  {
+    "path": "src/baselines/budget.py",
+    "normalized_scientific_ast_equal": true,
+    "normalization": "imports, docstrings, ROOT/VERSION packaging assignments excluded; selected API subset when documented"
+  },
+  {
+    "path": "src/baselines/cache.py",
+    "normalized_scientific_ast_equal": true,
+    "normalization": "imports, docstrings, ROOT/VERSION packaging assignments excluded; selected API subset when documented"
+  },
+  {
+    "path": "src/baselines/common.py",
+    "normalized_scientific_ast_equal": true,
+    "normalization": "imports, docstrings, ROOT/VERSION packaging assignments excluded; selected API subset when documented"
+  },
+  {
+    "path": "src/baselines/uniform.py",
+    "normalized_scientific_ast_equal": true,
+    "normalization": "imports, docstrings, ROOT/VERSION packaging assignments excluded; selected API subset when documented"
+  },
+  {
+    "path": "src/baselines/successive_halving.py",
+    "normalized_scientific_ast_equal": true,
+    "normalization": "imports, docstrings, ROOT/VERSION packaging assignments excluded; selected API subset when documented"
+  },
+  {
+    "path": "src/baselines/successive_rejects.py",
+    "normalized_scientific_ast_equal": true,
+    "normalization": "imports, docstrings, ROOT/VERSION packaging assignments excluded; selected API subset when documented"
+  },
+  {
+    "path": "src/baselines/ocba.py",
+    "normalized_scientific_ast_equal": true,
+    "normalization": "imports, docstrings, ROOT/VERSION packaging assignments excluded; selected API subset when documented"
+  },
+  {
+    "path": "src/baselines/bounded_cpc.py",
+    "normalized_scientific_ast_equal": true,
+    "normalization": "imports, docstrings, ROOT/VERSION packaging assignments excluded; selected API subset when documented"
+  },
+  {
+    "path": "src/metrics/bounded_ci.py",
+    "normalized_scientific_ast_equal": true,
+    "normalization": "imports, docstrings, ROOT/VERSION packaging assignments excluded; selected API subset when documented"
+  },
+  {
+    "path": "src/metrics/selection.py",
+    "normalized_scientific_ast_equal": true,
+    "normalization": "imports, docstrings, ROOT/VERSION packaging assignments excluded; selected API subset when documented"
+  },
+  {
+    "path": "src/metrics/statistics.py",
+    "normalized_scientific_ast_equal": true,
+    "normalization": "imports, docstrings, ROOT/VERSION packaging assignments excluded; selected API subset when documented"
+  },
+  {
+    "path": "src/baselines/fixed_sample.py",
+    "normalized_scientific_ast_equal": true,
+    "normalization": "imports, docstrings, ROOT/VERSION packaging assignments excluded; selected API subset when documented"
+  }
+]

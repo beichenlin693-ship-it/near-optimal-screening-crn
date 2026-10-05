@@ -1,0 +1,10 @@
+{
+  "description": "Approved SIMPAT submission-preparation archive, 2026-10-04",
+  "sha256": "723ea53d180190dc82f1d88a0c9f37d20971e41ea994258a76e4529fd5f8abc7",
+  "bytes": 261271487,
+  "additional_sources": "Previously verified formal-study statistics, fixed-sample procedure implementation, Gaussian means and source provenance records; per-artifact hashes identify copied content.",
+  "packaging_date": "2026-10-06",
+  "scientific_values_changed": 0,
+  "new_experiments": 0,
+  "new_simulator_calls": 0
+}

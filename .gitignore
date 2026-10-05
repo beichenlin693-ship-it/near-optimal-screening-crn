@@ -1,0 +1,40 @@
+# Local environments and caches
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.DS_Store
+Thumbs.db
+# Derived checks and temporary presentation builds
+build/
+dist/
+*.egg-info/
+*.aux
+*.log
+*.out
+*.toc
+# Raw, licensed separately, private, or large simulation records
+data/raw/
+data/private/
+data/restricted/
+archives/
+*.zip
+*.7z
+*.tar
+*.tar.gz
+*.jsonl
+*.jsonl.gz
+*.parquet
+*.npz
+*.npy
+*.pkl
+*.pickle
+*.sqlite*
+.env
+.env.*
+# Unpublished manuscript documents are not repository inputs
+manuscript/
+*.docx

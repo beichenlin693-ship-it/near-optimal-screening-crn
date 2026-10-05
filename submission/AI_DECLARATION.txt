@@ -1,0 +1,8 @@
+During the preparation of this work, the authors used OpenAI ChatGPT and
+Codex to assist with language polishing, translation of literature for
+comprehension, and LaTeX formatting. The tools were not used to replace the
+authors' scientific judgement, data analysis, or interpretation of the
+results. The authors reviewed and edited all AI-assisted content,
+independently verified the scientific claims, numerical results, equations,
+and references, and take full responsibility for the content of the
+publication.

@@ -1,0 +1,20 @@
+{
+  "simulator_base_seed": 20260930,
+  "formal": {
+    "truth": "M6_TRUTH",
+    "selection": "M6_SELECTION|B{budget}|CRN{mode}|M{macro}|{method}",
+    "synthetic": "M6_SYNTH|{regime}|B{budget}|CRN{mode}|M{macro}|{method}",
+    "variance": "M6_VRR|{pair_class}",
+    "bootstrap": "M6_BOOTSTRAP|{purpose}"
+  },
+  "robustness": {
+    "A": "M7_EPS|F{fraction}|B{budget}|CRN{mode}|M{macro}|CPC-v2",
+    "B": "M7_STRUCT|{scenario}|B512|CRN{mode}|M{macro}|{method}",
+    "truth": "M7_STRUCT_TRUTH|{scenario}",
+    "C": "M7_NONGAUSS|{distribution}|B{budget}|CRN{mode}|M{macro}|CPC-v2|{stream}",
+    "bootstrap": "M7_BOOTSTRAP reserved; no bootstrap required by this fixed design"
+  },
+  "external_bootstrap": "int.from_bytes(SHA256('PABC_BOOTSTRAP_V1|' + purpose)[:16], 'big')",
+  "seed_rule": "int.from_bytes(hashlib.sha256(label.encode()).digest()[:16], \"big\")",
+  "note": "Opaque labels are retained exactly because changing a label changes the random stream. No random draws are made by display-reproduction scripts."
+}

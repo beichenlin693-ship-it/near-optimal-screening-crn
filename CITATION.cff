@@ -1,0 +1,23 @@
+cff-version: 1.2.0
+message: If you use this repository, please cite the associated manuscript.
+title: 'Near-Optimal Screening under Fixed Simulation Budgets: Preservation, Efficiency,
+  and the Role of Common Random Numbers'
+type: software
+authors: &id001
+- family-names: Lin
+  given-names: Beichen
+  affiliation: School of Science, Minzu University of China, Beijing, China
+  email: beichenlin693@gmail.com
+  orcid: https://orcid.org/0009-0003-2486-0718
+- family-names: Zhang
+  given-names: Maodong
+  affiliation: Software Engineering, Xinjiang University, Urumqi, Xinjiang, China
+  email: 2132257382@qq.com
+repository-code: https://github.com/beichenlin693-ship-it/near-optimal-screening-crn
+license: MIT
+preferred-citation:
+  type: unpublished
+  title: 'Near-Optimal Screening under Fixed Simulation Budgets: Preservation, Efficiency,
+    and the Role of Common Random Numbers'
+  authors: *id001
+  year: 2026

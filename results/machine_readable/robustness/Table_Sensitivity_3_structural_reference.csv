@@ -1,0 +1,26 @@
+scenario,nref,top1,top3,epsilon_set,epsilon_set_size,final_reference_uncertain,source
+BASELINE,20000,HYB_08,"[""HYB_08"", ""HYB_06"", ""VEL_06""]","[""HYB_08"", ""HYB_06"", ""VEL_06"", ""HYB_07""]",4,False,M6_REUSED
+BOOKING_EARLY,750,HYB_08,"[""HYB_08"", ""HYB_04"", ""HYB_07""]","[""HYB_08"", ""HYB_04"", ""HYB_07"", ""VEL_06"", ""HYB_06""]",5,False,NEW_M7
+BOOKING_EARLY,1500,HYB_08,"[""HYB_08"", ""HYB_04"", ""HYB_07""]","[""HYB_08"", ""HYB_04"", ""HYB_07"", ""VEL_06"", ""HYB_06""]",5,False,NEW_M7
+BOOKING_EARLY,3000,HYB_08,"[""HYB_08"", ""HYB_04"", ""HYB_07""]","[""HYB_08"", ""HYB_04"", ""HYB_07"", ""VEL_06"", ""HYB_06""]",5,False,NEW_M7
+BOOKING_LATE,750,HYB_06,"[""HYB_06"", ""HYB_08"", ""VEL_06""]","[""HYB_06"", ""HYB_08"", ""VEL_06""]",3,False,NEW_M7
+BOOKING_LATE,1500,HYB_06,"[""HYB_06"", ""HYB_08"", ""VEL_06""]","[""HYB_06"", ""HYB_08"", ""VEL_06""]",3,False,NEW_M7
+BOOKING_LATE,3000,HYB_06,"[""HYB_06"", ""HYB_08"", ""VEL_06""]","[""HYB_06"", ""HYB_08"", ""VEL_06""]",3,False,NEW_M7
+CAP_HIGH,750,HYB_08,"[""HYB_08"", ""HYB_06"", ""VEL_06""]","[""HYB_08"", ""HYB_06"", ""VEL_06"", ""HYB_07""]",4,False,NEW_M7
+CAP_HIGH,1500,HYB_08,"[""HYB_08"", ""HYB_06"", ""VEL_06""]","[""HYB_08"", ""HYB_06"", ""VEL_06"", ""HYB_07""]",4,False,NEW_M7
+CAP_HIGH,3000,HYB_08,"[""HYB_08"", ""HYB_06"", ""VEL_06""]","[""HYB_08"", ""HYB_06"", ""VEL_06"", ""HYB_07""]",4,False,NEW_M7
+CAP_LOW,750,HYB_08,"[""HYB_08"", ""HYB_06"", ""VEL_06""]","[""HYB_08"", ""HYB_06"", ""VEL_06"", ""HYB_07""]",4,False,NEW_M7
+CAP_LOW,1500,HYB_08,"[""HYB_08"", ""HYB_06"", ""VEL_06""]","[""HYB_08"", ""HYB_06"", ""VEL_06"", ""HYB_07""]",4,False,NEW_M7
+CAP_LOW,3000,HYB_08,"[""HYB_08"", ""HYB_06"", ""VEL_06""]","[""HYB_08"", ""HYB_06"", ""VEL_06"", ""HYB_07""]",4,False,NEW_M7
+DISPERSION_HIGH,750,HYB_08,"[""HYB_08"", ""HYB_06"", ""VEL_06""]","[""HYB_08"", ""HYB_06"", ""VEL_06"", ""HYB_07"", ""VEL_05""]",5,False,NEW_M7
+DISPERSION_HIGH,1500,HYB_08,"[""HYB_08"", ""HYB_06"", ""VEL_06""]","[""HYB_08"", ""HYB_06"", ""VEL_06"", ""HYB_07"", ""VEL_05""]",5,False,NEW_M7
+DISPERSION_HIGH,3000,HYB_08,"[""HYB_08"", ""HYB_06"", ""VEL_06""]","[""HYB_08"", ""HYB_06"", ""VEL_06"", ""HYB_07"", ""VEL_05""]",5,False,NEW_M7
+DISPERSION_LOW,750,HYB_08,"[""HYB_08"", ""HYB_06"", ""VEL_06""]","[""HYB_08"", ""HYB_06"", ""VEL_06"", ""HYB_07""]",4,False,NEW_M7
+DISPERSION_LOW,1500,HYB_08,"[""HYB_08"", ""HYB_06"", ""VEL_06""]","[""HYB_08"", ""HYB_06"", ""VEL_06"", ""HYB_07""]",4,False,NEW_M7
+DISPERSION_LOW,3000,HYB_08,"[""HYB_08"", ""HYB_06"", ""VEL_06""]","[""HYB_08"", ""HYB_06"", ""VEL_06"", ""HYB_07""]",4,False,NEW_M7
+ETA_HIGH,750,HYB_04,"[""HYB_04"", ""HYB_08"", ""HYB_07""]","[""HYB_04""]",1,False,NEW_M7
+ETA_HIGH,1500,HYB_04,"[""HYB_04"", ""HYB_08"", ""HYB_07""]","[""HYB_04""]",1,False,NEW_M7
+ETA_HIGH,3000,HYB_04,"[""HYB_04"", ""HYB_08"", ""HYB_07""]","[""HYB_04""]",1,False,NEW_M7
+ETA_LOW,750,STATIC_130,"[""STATIC_130"", ""TIME_LATE_SURGE"", ""STATIC_115""]","[""STATIC_130""]",1,False,NEW_M7
+ETA_LOW,1500,STATIC_130,"[""STATIC_130"", ""TIME_LATE_SURGE"", ""STATIC_115""]","[""STATIC_130""]",1,False,NEW_M7
+ETA_LOW,3000,STATIC_130,"[""STATIC_130"", ""TIME_LATE_SURGE"", ""STATIC_115""]","[""STATIC_130""]",1,False,NEW_M7

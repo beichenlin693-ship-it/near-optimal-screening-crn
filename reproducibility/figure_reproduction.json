@@ -1,0 +1,30 @@
+[
+  {
+    "figure": "Fig1_objectives",
+    "png_pixels_equal": true
+  },
+  {
+    "figure": "Fig2_architectures",
+    "png_pixels_equal": true
+  },
+  {
+    "figure": "Fig3_external",
+    "png_pixels_equal": true
+  },
+  {
+    "figure": "Fig4_crn",
+    "png_pixels_equal": true
+  },
+  {
+    "figure": "Fig5_recommendation",
+    "png_pixels_equal": true
+  },
+  {
+    "figure": "Fig6_epsilon",
+    "png_pixels_equal": true
+  },
+  {
+    "figure": "Fig7_robustness",
+    "png_pixels_equal": true
+  }
+]

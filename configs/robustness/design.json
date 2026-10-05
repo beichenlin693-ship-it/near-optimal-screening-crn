@@ -1,0 +1,119 @@
+{
+  "tolerance": {
+    "new_epsilon_fractions": [
+      0.0025,
+      0.01
+    ],
+    "methods_new": [
+      "CPC-v2"
+    ],
+    "methods_reused": [
+      "Uniform",
+      "SH",
+      "SR",
+      "OCBA"
+    ],
+    "CPC_v2_baseline_reused": true,
+    "M_new": 200,
+    "M_reused": 300
+  },
+  "structural": {
+    "scenarios": [
+      "ETA_LOW",
+      "ETA_HIGH",
+      "BOOKING_EARLY",
+      "BOOKING_LATE",
+      "CAP_LOW",
+      "CAP_HIGH",
+      "DISPERSION_LOW",
+      "DISPERSION_HIGH"
+    ],
+    "design": "OFAT",
+    "methods": [
+      "Uniform",
+      "SH",
+      "CPC-v2"
+    ],
+    "budget": 512,
+    "M": 60,
+    "nref": 3000,
+    "checkpoints": [
+      750,
+      1500,
+      3000
+    ],
+    "reference_uncertain_rule": "Top1 or epsilon-set membership changes 1500->3000, or any nonbest policy has epsilon boundary distance <3 paired-gap MCSE. No expansion. Top3 stability separately reported.",
+    "epsilon_fraction": 0.005,
+    "capacity_subset": "capacity_status == configuration_uncertain; 49 games, other 214 unchanged",
+    "capacity_rounding": "Decimal round-half-to-even of exact decimal multiplier 0.9 or 1.1 times prespecified integer",
+    "booking_rule": "w*exp(sign*0.35*s), s=(-1,-.6,-.2,.2,.6,1), sign=-1 EARLY/+1 LATE; normalize to original total mass"
+  },
+  "non_gaussian": {
+    "distributions": [
+      "HEAVY_T5",
+      "SKEW_LOGNORMAL"
+    ],
+    "methods": [
+      "CPC-v2"
+    ],
+    "M": 5000,
+    "rho": 0.9,
+    "sigma_total": 0.007,
+    "epsilon": 0.0020092128179484683,
+    "means_sha256": "4d6bf2f5f3e95423e6cd7cff8e2d5fc987b8c1ba1b95cbb9db80085ead6a2446",
+    "heavy": "standard_t(df=5)*sqrt(3/5)",
+    "skew": "(exp(N(0,1))-exp(0.5))/sqrt(exp(1)*(exp(1)-1))",
+    "ON": "independent common and idiosyncratic components; shared common component across policies",
+    "OFF": "each policy has independent common-component copy and independent idiosyncratic component; same marginal convolution as ON",
+    "components": "sigma_c=sigma_total*sqrt(.9), sigma_e=sigma_total*sqrt(.1)"
+  },
+  "intervals": {
+    "proportions": "Wilson two-sided 95%",
+    "EOC": "Student-t 95%; ddof=1 MCSE; zero observed variance yields descriptive degenerate interval, not population certainty",
+    "contrasts": "independent Newcombe-Wilson for proportions; independent Welch for EOC/nEOC. Reused baseline dependence across contrasts explicitly acknowledged; no pooled independent treatment.",
+    "synthetic_errors": "Clopper-Pearson two-sided 95% and one-sided 95% upper bound",
+    "reference": "paired-gap MCSE vs plug-in best, precision diagnostic not selective-inference guarantee"
+  },
+  "classification": {
+    "scenario_structurally_sensitive": "CPC preservation Wilson upper < .95 in either mode, or CPC-v2 minus SH OFF nEOC Welch upper < 0, or ON minus OFF CPC mean eliminated Welch upper < 0",
+    "scenario_moderately_sensitive": "Absent structural trigger: any absolute delta PGS >= .10 or absolute delta nEOC >= .001 vs matching formal baseline, any CPC preservation point <.95, or reference_uncertain",
+    "scenario_stable": "No structural or moderate trigger; descriptive, not invariance proof",
+    "overall_limited": "At least 3 structurally sensitive scenarios, or any CPC preservation point <.90, or any non-Gaussian false-elimination two-sided CP lower >.05",
+    "overall_strong": "At least 6 stable scenarios, zero structurally sensitive scenarios, no uncertain structural reference, and all non-Gaussian observed false-elimination <=.05",
+    "overall_moderate": "All remaining cases",
+    "threshold_scope": "Predefined descriptive reporting rules, not engineering gates or new theoretical guarantees; all individual results and CIs shown"
+  },
+  "shared": {
+    "epsilon_fractions": [
+      0.0025,
+      0.005,
+      0.01
+    ],
+    "epsilon_values": [
+      655166.529290625,
+      1310333.05858125,
+      2620666.1171625
+    ],
+    "R_cal": 262066611.71625,
+    "baseline_epsilon": 1310333.05858125,
+    "K": 32,
+    "delta": 0.05,
+    "n0": 2,
+    "min_stage_batch": 6,
+    "ocba": {
+      "n0": 5,
+      "gap_floor": 1e-06,
+      "variance_floor": 1e-12,
+      "batch_size": 32
+    },
+    "budgets": [
+      256,
+      512,
+      1024
+    ],
+    "crn_modes": [
+      false,
+      true
+    ]
+  }
+}

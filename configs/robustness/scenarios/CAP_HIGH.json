@@ -1,0 +1,114 @@
+{
+  "config": {
+    "simulation": {
+      "n_games_expected": 263,
+      "replications": 24,
+      "save_trajectory": true,
+      "deterministic": false
+    },
+    "sales_windows_days_to_game": [
+      30,
+      14,
+      7,
+      3,
+      1,
+      0
+    ],
+    "baseline_demand": {
+      "source": "dynamic",
+      "availability_rule": "strictly_before_decision_date",
+      "description": "Expected final attendance conditional on each window decision date; booking share applied once."
+    },
+    "booking_curve": {
+      "type": "baseline",
+      "weights": [
+        0.12,
+        0.16,
+        0.2,
+        0.2,
+        0.18,
+        0.14
+      ],
+      "status": "structural_calibration_assumption"
+    },
+    "elasticity": {
+      "source": "external_structural_parameter",
+      "status": "externally_calibrated_uncertain_structural_parameter",
+      "baseline": 1.2,
+      "min": 0.5,
+      "max": 2.5,
+      "calibration_note": "Illustrative structural benchmark value; no WNBA transaction estimate or claimed external point estimate.",
+      "allow_zero_for_validation": false
+    },
+    "demand_shock": {
+      "source": "m2_oos_residual_pool",
+      "distribution": "empirical",
+      "enabled": true,
+      "normalize_mean": true,
+      "factor_bounds": [
+        0.1,
+        4.0
+      ],
+      "student_t_df": 5
+    },
+    "negative_binomial": {
+      "alpha_source": "m2",
+      "alpha_override": null,
+      "override_only_for_sensitivity": false
+    },
+    "capacity": {
+      "status": "public_venue_capacity",
+      "source_priority": [
+        "game_arena_date_public_capacity"
+      ]
+    },
+    "pricing": {
+      "min_multiplier": 0.65,
+      "max_multiplier": 1.65,
+      "reference_source": "m1_price_proxy_year",
+      "reference_status": "year_level_proxy"
+    },
+    "policies": {
+      "time_start_multiplier": 0.85,
+      "time_end_multiplier": 1.15,
+      "inventory_gain": 0.6,
+      "velocity_gain": 0.5,
+      "velocity_signal_limit": 1.0
+    },
+    "randomness": {
+      "base_seed": 20260930,
+      "explicit_exogenous_path": true
+    },
+    "paths": {
+      "outputs": "build/simulation",
+      "logs": "build/logs"
+    },
+    "validation": {
+      "plausibility_season_ratio_bounds": [
+        0.25,
+        2.0
+      ],
+      "plausibility_max_game_ratio": 5.0,
+      "occupancy_scenarios": [
+        0.6,
+        0.8,
+        0.95
+      ]
+    }
+  },
+  "alpha": 0.06487463290232762,
+  "scenario_parameters": {
+    "eta": 1.2,
+    "booking_weights": [
+      0.12,
+      0.16,
+      0.2,
+      0.2,
+      0.18,
+      0.14
+    ],
+    "alpha": 0.06487463290232762,
+    "R_max": 668504378.953125
+  },
+  "capacity_changed_games": 49
+}

@@ -1,0 +1,4 @@
+# Preserve verified artifact bytes across operating systems.
+* -text whitespace=cr-at-eol,-blank-at-eof
+# Matplotlib SVG path lines retain their original spaces for source hash equality.
+results/main_figures/*.svg whitespace=-blank-at-eol,-blank-at-eof,cr-at-eol

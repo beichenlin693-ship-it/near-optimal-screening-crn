@@ -1,0 +1,94 @@
+{
+  "status": "PASS",
+  "checks": [
+    {
+      "check": "Manifest has unique safe relative paths",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "SHA-256 and sizes match",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "check": "Manifest covers complete payload",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Copied source-artifact checks",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "check": "No large payload files",
+      "passed": true,
+      "detail": "Conservative 10 MB release cap; large banks are documented separately."
+    },
+    {
+      "check": "No raw archives, banks or manuscript PDFs",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "check": "No local user paths or credential patterns",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "check": "Publication-facing README",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "README required sections",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Citation identities and license",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "MIT selection completed",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "All 12 display chains resolve",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "check": "Local documentation links resolve",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "check": "All library modules import",
+      "passed": true,
+      "detail": 33
+    },
+    {
+      "check": "Recorded scientific AST comparisons",
+      "passed": true,
+      "detail": 27
+    },
+    {
+      "check": "Adverse DSTTB comparison retained",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Near-tie VRR retained",
+      "passed": true,
+      "detail": ""
+    }
+  ],
+  "scientific_result_modifications": 0,
+  "new_experiments": 0,
+  "new_simulator_calls": 0,
+  "scope": "Hash/source/traceability/import verification only. Run the two display-reproduction commands to verify regenerated displays."
+}

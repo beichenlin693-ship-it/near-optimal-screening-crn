@@ -1,0 +1,12 @@
+\begin{table}[tbp]\centering\footnotesize
+\caption{Experimental designs, sample sizes and reference targets. Reused observations do not constitute additional independent evidence.}\label{tab:design}
+\begin{tabularx}{\linewidth}{XlXX}\toprule
+Stratum & Budgets & Selections per cell & Truth / reference \\ \midrule
+Formal Gaussian & 256/512/1024 & 5,000; 108 cells & Known means; 3 correlations \\
+Formal WNBA & 256/512/1024 & 300; 36 cells & 20,000 paths / policy \\
+External comparison & 512 & G2: 1,000; WNBA: 200 & Same truth definitions \\
+Tolerance sensitivity & 256/512/1024 & 200 new-tolerance; 300 reused & Same WNBA reference \\
+Structural sensitivity & 512 & 60 new-scenario; 300 reused & 3,000 paths / new scenario \\
+Non-Gaussian stress & 256/512/1024 & 5,000; 12 new + 6 reused cells & Known means \\
+\bottomrule\end{tabularx}
+\end{table}

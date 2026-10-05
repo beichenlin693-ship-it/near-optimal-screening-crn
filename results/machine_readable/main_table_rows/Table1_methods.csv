@@ -1,0 +1,8 @@
+Method,Fixed / adaptive,Set target,Pair,Multiplicity,Native choice
+DSTTB,Yes / no,All good,No,Joint boxes,No
+B1,Yes / no,All good,No,Bonferroni,No
+B2,Yes / no,All good,Yes,All-pair Bonf.,No
+CPC,Yes / yes,All good,ON,Holm + spending,Yes
+SH,Yes / yes,--,No,--,Yes
+SR,Yes / yes,--,No,--,Yes
+OCBA,Yes / yes,--,No,--,Yes

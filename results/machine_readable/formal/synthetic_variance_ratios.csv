@@ -1,0 +1,4 @@
+regime,rho,marginal_variance,variance_ON,variance_OFF,population_VRR,status
+G1,0.2,4.9000000000000005e-05,7.840000000000001e-05,9.800000000000001e-05,1.25,"analytical known-truth design identity, not an estimated WNBA value"
+G2,0.9,4.9000000000000005e-05,9.8e-06,9.800000000000001e-05,10.000000000000002,"analytical known-truth design identity, not an estimated WNBA value"
+G3,0.99,4.9000000000000005e-05,9.80000000000001e-07,9.800000000000001e-05,99.99999999999991,"analytical known-truth design identity, not an estimated WNBA value"
