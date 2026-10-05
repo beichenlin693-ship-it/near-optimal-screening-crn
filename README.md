@@ -154,6 +154,9 @@ the TeX tables elsewhere requires `booktabs` and `tabularx`.
 
 ## Reproducibility notes
 
+- Version `1.0.0-submission` is documented in the
+  [release notes](RELEASE_NOTES.md) and [Zenodo metadata](ZENODO_METADATA.md).
+  The archival DOI is pending.
 - [Traceability](reproducibility/traceability.csv) links every main display to its
   machine-readable input, generating script, configuration and seed/reference source.
 - [Verification report](reproducibility/verification_report.md) records the build,

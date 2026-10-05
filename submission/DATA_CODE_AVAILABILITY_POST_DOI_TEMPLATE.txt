@@ -1,0 +1,10 @@
+The source code, experimental configurations, deterministic random seeds,
+derived simulation inputs, machine-readable result summaries, and
+reproducibility scripts supporting this study are available at
+https://github.com/beichenlin693-ship-it/near-optimal-screening-crn.
+A versioned archival release is permanently available through Zenodo at
+[ZENODO DOI].
+Publicly sourced WNBA inputs are documented with source-level provenance.
+Materials subject to third-party redistribution restrictions are not
+redistributed; source information and reconstruction instructions are
+provided where permitted.

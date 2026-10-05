@@ -3,6 +3,7 @@ message: If you use this repository, please cite the associated manuscript.
 title: 'Near-Optimal Screening under Fixed Simulation Budgets: Preservation, Efficiency,
   and the Role of Common Random Numbers'
 type: software
+version: 1.0.0-submission
 authors: &id001
 - family-names: Lin
   given-names: Beichen
